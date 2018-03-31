@@ -1,0 +1,2 @@
+# Node-Express Backend written with Typescript
+This project is a simple Node-Express backend with RESTful APIs using MongoDB written entirely in Typescript.  It was slightly adapted from the YouTube video [RESTful API In Node & Express With TypeScript & MongoDB](https://www.youtube.com/watch?v=XqbBv1i9Yhc) by *Clayton Ray*.  His original code repo may be found [here](https://github.com/iamclaytonray/tes).
