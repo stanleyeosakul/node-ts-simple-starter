@@ -13,14 +13,15 @@ import { Database } from './config/db';
 import PostRouter from './router/PostRouter';
 import UserRouter from './router/UserRouter';
 
-// *************************************************
-// CORE APPLICATION LOGIC
-// *************************************************
 class App {
-
+  
+  // Define variables
   app: Application;
   private db: Database = new Database();
-
+  
+  // *************************************************
+  // CORE APPLICATION LOGIC
+  // *************************************************
   constructor() { 
     this.app = express();
     this.config();
