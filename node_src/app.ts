@@ -41,7 +41,7 @@ class App {
 
     // Middleware
     this.app.use(json());
-    this.app.use(express.urlencoded({ extended: false }));
+    this.app.use(urlencoded({ extended: false }));
     this.app.use(logger('dev'));
     this.app.use(cors());
 
